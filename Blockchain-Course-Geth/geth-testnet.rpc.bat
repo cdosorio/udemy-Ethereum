@@ -1,0 +1,5 @@
+Rem  DO NOT FORGET TO REPLACE --testnet if you are using --dev
+
+geth --testnet  --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi "web3,eth,net,personal" --rpccorsdomain "*" --datadir "C:\Users\Asus\AppData\Roaming\Ethereum" 
+
+Rem FUE NECESARIO LO SGTE?  admin.startRPC("localhost",8545,"*","eth,net,web3");

@@ -1,0 +1,26 @@
+=============== Oct 7, 2017 (CLST) ===============
+14:11:17.558558 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:11:17.563571 db@open opening
+14:11:17.568584 version@stat F·[] S·0B[] Sc·[]
+14:11:17.570591 db@janitor F·2 G·0
+14:11:17.570591 db@open done T·7.0196ms
+=============== Oct 7, 2017 (CLST) ===============
+14:12:47.844477 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:12:47.844477 version@stat F·[] S·0B[] Sc·[]
+14:12:47.844477 db@open opening
+14:12:47.845481 journal@recovery F·1
+14:12:47.846484 journal@recovery recovering @1
+14:12:47.858516 memdb@flush created L0@2 N·11 S·700B "H\xe6\xc5..\xafN\xfe,v5":"\xbd\xff-..2\x9e\x16,v2"
+14:12:47.862526 version@stat F·[1] S·700B[700B] Sc·[0.25]
+14:12:47.868542 db@janitor F·3 G·0
+14:12:47.868542 db@open done T·24.0649ms
+=============== Oct 7, 2017 (CLST) ===============
+14:12:56.874068 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:12:56.875072 version@stat F·[1] S·700B[700B] Sc·[0.25]
+14:12:56.875072 db@open opening
+14:12:56.875072 journal@recovery F·1
+14:12:56.876076 journal@recovery recovering @3
+14:12:56.885100 memdb@flush created L0@5 N·9 S·453B "Blo..ion,v20":"set..ion,v19"
+14:12:56.887104 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:12:56.893121 db@janitor F·4 G·0
+14:12:56.893121 db@open done T·18.0485ms

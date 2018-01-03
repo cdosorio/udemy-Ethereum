@@ -1,0 +1,15 @@
+
+admin.peers
+admin.nodeInfo.enode
+admin.peers
+admin.addPeer("enode://e4bcf57f412fbb4469676b744fb315503a21527740769eb1557678fcc8ff7079087901aa2e327c00be8a08e5ad6d3c21325f810950713aa3a22029d2b0db49c6@127.0.0.1:30304?discport=0")
+admin.peers
+admin.peerscount
+admin.peercount
+admin.peerCount
+net.peercount
+net.peerCount
+admin.addPeer("enode://e4bcf57f412fbb4469676b744fb315503a21527740769eb1557678fcc8ff7079087901aa2e327c00be8a08e5ad6d3c21325f810950713aa3a22029d2b0db49c6@127.0.0.1:30304?discport=0")
+net.peerCount
+geth --datadir "./data" init genesis.json
+net.listening

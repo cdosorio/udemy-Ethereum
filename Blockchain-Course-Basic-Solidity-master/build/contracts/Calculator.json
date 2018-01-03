@@ -1,0 +1,79 @@
+{
+  "contract_name": "Calculator",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "addToNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "substractNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "multiplyWithNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getResult",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "divideByNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052600a600055341561001457600080fd5b5b5b5b610160806100266000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306ccd23081146100695780630b7e4e7f14610081578063b4679b0614610099578063de292789146100b1578063f5cb911d146100d6575b600080fd5b341561007457600080fd5b61007f6004356100ee565b005b341561008c57600080fd5b61007f6004356100fa565b005b34156100a457600080fd5b61007f600435610107565b005b34156100bc57600080fd5b6100c4610113565b60405190815260200160405180910390f35b34156100e157600080fd5b61007f60043561011a565b005b60008054820190555b50565b6000805482900390555b50565b60008054820290555b50565b6000545b90565b8060008082825481151561012a57fe5b0490915550505b505600a165627a7a723058206dc70c879e5785479c5b80a99fc336b9d5543ed01e8f352ef8f22280f438a5580029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1502301880913
+}

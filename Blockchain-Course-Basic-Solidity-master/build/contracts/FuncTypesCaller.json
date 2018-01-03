@@ -1,0 +1,60 @@
+{
+  "contract_name": "FuncTypesCaller",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "funcTypesAddr",
+          "type": "address"
+        },
+        {
+          "name": "str",
+          "type": "string"
+        }
+      ],
+      "name": "callExternal",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "funcTypesAddr",
+          "type": "address"
+        },
+        {
+          "name": "str",
+          "type": "string"
+        }
+      ],
+      "name": "callAsTransaction",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6102388061001f6000396000f300606060405263ffffffff60e060020a60003504166310725fe0811461002f57806348d5b90714610079575b600080fd5b341561003a57600080fd5b6100676004803573ffffffffffffffffffffffffffffffffffffffff1690602480359081019101356100c3565b60405190815260200160405180910390f35b341561008457600080fd5b6100676004803573ffffffffffffffffffffffffffffffffffffffff169060248035908101910135610162565b60405190815260200160405180910390f35b60008373ffffffffffffffffffffffffffffffffffffffff8116630d35b4738585856040516020015260405160e060020a63ffffffff85160281526020600482019081526024820183905290819060440184848082843782019150509350505050602060405180830381600087803b151561013d57600080fd5b6102c65a03f1151561014e57600080fd5b50505060405180519250505b509392505050565b6000808473ffffffffffffffffffffffffffffffffffffffff166040517f696e64697265637443616c6c28737472696e67290000000000000000000000008152601401604051809103902060e060020a900485856040518363ffffffff1660e060020a0281526004018083838082843782019150509250505060006040518083038160008761646e5a03f19250505090508015156101ff57600080fd5b600091505b5093925050505600a165627a7a723058205179d891c88832bb5d7c003d6d8d541b61577239f753ca1733a4fa915f43f43a0029",
+  "networks": {
+    "1490794988279": {
+      "events": {},
+      "links": {},
+      "address": "0xfac1c9aadb925cad0146ab53ad10e6a30b710dab",
+      "updated_at": 1491476112036
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1502302490454
+}
